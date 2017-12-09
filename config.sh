@@ -10,3 +10,4 @@ apt-get install i3
 apt install zsh vim sakura lightdm ttf-wqy-zenhei
 echo "NOw if you need update prog then keep it.else please press 'Ctrl+C' stop it..."
 apt-get dist-upgrade 1>/etc/null 2>&1
+echo "DONE！"
