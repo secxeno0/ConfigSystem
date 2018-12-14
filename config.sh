@@ -1,6 +1,6 @@
 #!/bin/bash
 cp /etc/apt/sources.list /etc/apt/sources.list.bak
-cat sorces>>/etc/apt/sources.list
+cat sorces>/etc/apt/sources.list
 apt-get update
 systemctl --user enable pulseaudio
 echo "LANG=zh_CN.UTF-8\nLC_ALL=zh_CN.UTF-8">>/etc/environment
